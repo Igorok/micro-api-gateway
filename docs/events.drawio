@@ -1,0 +1,151 @@
+<mxfile host="65bd71144e">
+    <diagram id="gydtbBWC2uiIYKEWQk4Y" name="Page-1">
+        <mxGraphModel dx="779" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Domain Event" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="10" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Actor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="10" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Hot Spot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="10" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Opportunity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="10" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Command" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="10" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Read Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="10" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Policy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="10" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Aggregate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="10" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="160" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Register in service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="150" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="User Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="160" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="User Created" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="120" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="User Detail" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="110" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Registration Failed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="200" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Error message" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="210" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="160" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Login in service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="150" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="User Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="160" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="User Loginned" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="120" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="JWT access and refresh tokens" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Login Failed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="200" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Error message" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="210" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="380" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Open Private Chat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="370" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Message Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="380" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="User join private room" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="360" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Room details" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="310" width="95" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Join room Policy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="400" width="85" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="560" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Send private message" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="570" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Message Sended" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="570" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="List of messages with his message" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="520" width="115" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Message Sending Policy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="620" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Validate spam messages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="326" y="680" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Show message to second user" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="List of messages with new message" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="552.5" y="600" width="115" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Message Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="560" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Spam detection service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Spam detected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="790" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="What need to do?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="840" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Second user" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="590" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="What need to do?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Validate toxic messages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="670" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Toxic detection service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="710" width="95" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Toxic message detected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="780" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="What need to do?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="830" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,99 @@
+version: "3"
+services:
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: micro_user
+      MONGO_INITDB_ROOT_PASSWORD: micro_pwd
+    ports:
+      - "27017:27017"
+    networks:
+     - micro-backend-net
+
+  user-service:
+    build: ./micro-user
+    ports:
+      - "3002:3002"
+    volumes:
+      - ./micro-user:/home/node/app
+    environment:
+     - MONGO_URI=mongodb://micro_user:micro_pwd@mongo:27017/micro_users
+     - KAFKA_URI=kafka:9092
+    depends_on:
+      - mongo
+    networks:
+     - akhq_default
+     - micro-backend-net
+
+  message-service:
+    build: ./micro-message
+    ports:
+      - "3003:3003"
+    volumes:
+      - ./micro-message:/home/node/app
+    environment:
+     - MONGO_URI=mongodb://micro_user:micro_pwd@mongo:27017/micro_messages
+     - KAFKA_URI=kafka:9092
+    depends_on:
+      - mongo
+    networks:
+     - akhq_default
+     - micro-backend-net
+
+  api-gateway-service:
+    build: ./micro-api-gateway
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    volumes:
+      - ./micro-api-gateway:/home/node/app
+    environment:
+     - KAFKA_URI=kafka:9092
+     - API_USERS=http://user-service:3002
+     - API_MESSAGES=http://message-service:3003
+    networks:
+     - akhq_default
+     - micro-backend-net
+    depends_on:
+      - user-service
+      - message-service
+
+  spam-service:
+    build: ./micro-spam
+    environment:
+      - KAFKA_URI=kafka:9092
+    volumes:
+      - ./micro-spam:/home/app/
+    depends_on:
+      - api-gateway-service
+    networks:
+      - akhq_default
+
+  toxic-service:
+    build: ./micro-toxic
+    environment:
+      - KAFKA_URI=kafka:9092
+    volumes:
+      - ./micro-toxic:/home/app/
+    depends_on:
+      - api-gateway-service
+    networks:
+      - akhq_default
+
+  front-service:
+    build: ./micro-front
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./micro-front:/home/node/app
+    depends_on:
+      - user-service
+      - message-service
+      - api-gateway-service
+
+networks:
+    akhq_default:
+      external: true
+      name: akhq_default
+    micro-backend-net:
+      driver: bridge
